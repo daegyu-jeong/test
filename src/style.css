@@ -1,0 +1,88 @@
+.App {
+    background-color: #eee;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.Container {
+    background-color: #fff;
+    width: 300px;
+    height: 550px;
+    margin: 5vh auto;
+    padding: 5vh auto;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Container>h3 {
+    color: slateblue;
+    text-align: center;
+}
+
+.Container2 {
+    background-color: #fff;
+    width: 300px;
+    height: 550px;
+    margin: 5vh auto;
+    padding: 5vh auto;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Container2>h3 {
+    color: slateblue;
+    text-align: center;
+}
+
+.Mark {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 0.5rem 0px; 
+    width: 100%;
+}
+
+.Day {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0.5rem 0px; 
+    width: 100%;
+}
+
+.Go {
+    appearance: none; 
+    background-color: transparent; 
+    border-color: transparent purple; 
+    width: 0px; 
+    height: 0px; 
+    border-top-width: 1rem; 
+    border-top-style: solid; 
+    border-bottom-width: 1rem; 
+    border-bottom-style: solid;
+    border-left-width: 1.6rem; 
+    border-left-style: solid; 
+    color: rgb(255, 255, 255); 
+    cursor: pointer
+}
+
+.score {
+    width: 30px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: gray;
+  }
+
+.score:hover {
+  background-color: yellow;
+}
+
+.clickedScore {
+  background-color: yellow;
+}
